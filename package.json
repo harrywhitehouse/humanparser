@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      "@djordjelacmanovic/humanparser@github:djordjelacmanovic/humanparser",
+      "/usr/src/app"
+    ]
+  ],
+  "_from": "@djordjelacmanovic/humanparser@github:djordjelacmanovic/humanparser",
+  "_id": "@djordjelacmanovic/humanparser@git+ssh://git@github.com/djordjelacmanovic/humanparser.git#b5aad4d5ffdda3c77eaddedd9812b7baee9db67b",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@djordjelacmanovic/humanparser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@djordjelacmanovic/humanparser@github:djordjelacmanovic/humanparser",
+    "name": "@djordjelacmanovic/humanparser",
+    "escapedName": "@djordjelacmanovic%2fhumanparser",
+    "scope": "@djordjelacmanovic",
+    "rawSpec": "github:djordjelacmanovic/humanparser",
+    "saveSpec": "github:djordjelacmanovic/humanparser",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/djordjelacmanovic/humanparser.git#b5aad4d5ffdda3c77eaddedd9812b7baee9db67b",
+  "_spec": "github:djordjelacmanovic/humanparser",
+  "_where": "/usr/src/app",
+  "author": {
+    "name": "Anthony Ettinger",
+    "url": "chovy"
+  },
+  "bugs": {
+    "url": "https://github.com/chovy/humanparser/issues"
+  },
+  "dependencies": {},
+  "description": "Parse a human name string into salutation, first name, middle name, last name, suffix. Parse an address into address, city, state, zip",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "homepage": "https://github.com/chovy/humanparser#readme",
+  "keywords": [
+    "human",
+    "address",
+    "name",
+    "parser",
+    "parse",
+    "fullname",
+    "full name",
+    "first name",
+    "last name",
+    "human name",
+    "city state zip",
+    "city",
+    "state",
+    "zip"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "module": "./lib/index.es5.js",
+  "name": "@djordjelacmanovic/humanparser",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chovy/humanparser.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.12.0"
+}
